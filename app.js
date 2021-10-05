@@ -1,4 +1,3 @@
-console.log('\x1b[35m', 'Активирую бота...');  
 const { VK } = require('vk-io');   
 const commands = [];
 let settings = require('./settings.json');
@@ -20,6 +19,7 @@ const cmd = {
 
 cmd.hear(/^(?:да)$/i, async(message) => {
     message.reply('Пизда')
+console.log('Бот сказал пизда')
 });
 console.log('\x1b[32m','Бот активирован!')
 vk.updates.start().catch(console.error);
