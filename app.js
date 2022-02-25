@@ -19,7 +19,7 @@ const cmd = {
 
 cmd.hear(/^(?:да)$/i, async(message) => {
     message.reply('Пизда')
-console.log('Бот сказал пизда')
+return console.log('Бот сказал пизда')
 });
 console.log('\x1b[32m','Бот активирован!')
 vk.updates.start().catch(console.error);
