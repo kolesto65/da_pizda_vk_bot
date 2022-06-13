@@ -1,7 +1,7 @@
 const { VK } = require('vk-io');   
 const commands = [];
 let settings = require('./settings.json');
-const vk = new VK({	token: `${settings.token}` });
+const vk = new VK({	token: settings.token });
                                         
 var { updates } = vk;
                                                                     
