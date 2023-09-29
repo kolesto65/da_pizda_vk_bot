@@ -17,4 +17,6 @@ Launch:
 
 start.bat
 
-#GOVNOCODE
+P.S. This is just an example of one way to create VK chat bot.
+
+#SHITCODE
