@@ -17,6 +17,7 @@ Launch:
 
 start.bat
 
-P.S. This is just an example of one way to create VK chat bot.
+P.S. This is just an example of one way to create VK chat bot, use this to see how things interact between each other in code.
+
 
 #SHITCODE
